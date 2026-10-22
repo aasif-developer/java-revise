@@ -10,7 +10,7 @@ public class FindDuplicate
         {
             if(set.contains(x))
             {
-                System.out.println("DUPLICATE :" +x);
+                System.out.println("DUPLICATE ELEMENT IS :" +x);
             }
             else
             {
