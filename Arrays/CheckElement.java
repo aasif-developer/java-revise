@@ -13,11 +13,11 @@ public class CheckElement
         }
         if(set.contains(10))
         {
-            System.out.println("FOUND");
+            System.out.println("ELEMENT FOUND");
         }
         else
         {
-            System.out.println("NOT FOUND");
+            System.out.println("ELEMENT NOT FOUND");
         }
     }
 }
