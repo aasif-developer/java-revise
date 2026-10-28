@@ -11,7 +11,7 @@ public class Methods
     {
         int a=10;
         int b=20;
-        int c=Addition.add(a, b);
-        System.out.println(c);
+    
+        System.out.println(add(a,b);
     }
 }
