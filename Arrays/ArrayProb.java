@@ -1,7 +1,6 @@
 
 public class ArrayProb {
     public static void main(String[] args) {
-
         int[] arr = {10, 5, 20, 8, 15};
 
         // 1. Find Smallest and Largest
@@ -18,7 +17,7 @@ public class ArrayProb {
             if (arr[i] > largest) {
                 largest = arr[i];
             }
-        }
+      }
 
         System.out.println("Smallest: " + smallest);
         System.out.println("Largest: " + largest);
@@ -40,8 +39,6 @@ public class ArrayProb {
 
         if (foundSecondLargest) {
             System.out.println("Second Largest: " + secondLargest);
-        } else {
-            System.out.println("No second-largest distinct number");
         }
 
 
